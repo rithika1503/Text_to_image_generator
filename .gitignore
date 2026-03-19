@@ -1,0 +1,23 @@
+# Large model files
+checkpoints/
+*.pt
+*.pth
+
+# Dataset
+flickr8k/
+
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
