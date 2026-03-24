@@ -1,4 +1,4 @@
-# 🎨 Text-to-Image GAN
+#  Text-to-Image GAN
 
 A conditional GAN that generates images from text captions, built with PyTorch + CLIP.
 
