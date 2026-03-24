@@ -11,10 +11,6 @@ A conditional GAN that generates images from text captions, built with PyTorch +
 ## Results
 Training progression over 30 epochs on Flickr8k (8K images):
 
-| Epoch 5 | Epoch 15 | Epoch 30 |
-|---------|----------|----------|
-| ![](samples/sample_epoch005.png) | ![](samples/sample_epoch015.png) | ![](samples/sample_epoch030.png) |
-
 ### Inference: "a red bird sitting in a tree"
 ![](samples/inference_output.png)
 
