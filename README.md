@@ -20,33 +20,33 @@ Training progression over 30 epochs on Flickr8k (8K images):
 ## Setup
 
 ### 1. Clone the repo
-\`\`\`bash
+```bash
 git clone https://github.com/YOUR_USERNAME/text-to-image-gan.git
 cd text-to-image-gan
-\`\`\`
+```
 
 ### 2. Create virtual environment
-\`\`\`bash
+```bash
 python3.11 -m venv venv
 source venv/bin/activate
-\`\`\`
+```
 
 ### 3. Install dependencies
-\`\`\`bash
+```bash
 pip install torch torchvision
 pip install git+https://github.com/openai/CLIP.git
 pip install -r requirements.txt
-\`\`\`
+```
 
 ### 4. Download Flickr8k dataset
-\`\`\`bash
+```bash
 kaggle datasets download -d adityajn105/flickr8k --path ./flickr8k --unzip
-\`\`\`
+```
 
 ### 5. Run the notebook
-\`\`\`bash
+```bash
 jupyter lab text_to_image_gan.ipynb
-\`\`\`
+```
 
 ## Hardware
 - Tested on Apple M2 MacBook (MPS)
